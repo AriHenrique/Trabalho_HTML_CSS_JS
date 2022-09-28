@@ -6,7 +6,7 @@ Atividade Avaliativa I
 
 HANDS-ON
 
-1. Criar uma página com estilização (arquivo CSS externo).
+1 Criar uma página com estilização (arquivo CSS externo).
 
 Passo 1: Criar uma pasta raiz para o projeto "HTML-CSS"
 
