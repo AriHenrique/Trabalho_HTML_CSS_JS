@@ -8,11 +8,9 @@
     color: aliceblue;
 }
 
-
-
 body{
     background: url('img/ceu.gif') no-repeat;
-    background-size: 100vh;
+    background-size: 100hv;
     background-attachment: fixed;
 }
 
@@ -47,4 +45,17 @@ a:hover{
 #title{
     font-style: italic;
     font-size: 20px;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        color: black;
+        background: url('img/gif_mobile2.gif') no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    *{
+        color: white;
+    }
 }

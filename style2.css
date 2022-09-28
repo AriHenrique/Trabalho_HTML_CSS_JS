@@ -9,8 +9,8 @@
 }
 
 body{
-    background: url('img/gif_web2.gif') no-repeat;
-    background-size: 70em;
+    background-image: url('img/gif_web2.gif');
+    background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -96,4 +96,17 @@ li{
     padding: 10px;
     border-radius: 10px;
     color: black;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        color: black;
+        background: url('img/gif_mobile.gif') no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    *{
+        color: white;
+    }
 }
